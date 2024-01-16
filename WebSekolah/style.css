@@ -1,0 +1,204 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #314e9c;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+#navbar {
+    background-color: #ffff;
+    box-shadow: gray 0px 5px 6px;
+    animation: transitionIn 0.75s;
+}
+
+.card {
+    margin: 10px auto;
+    max-width: 640px;
+    border-style: none;
+    box-shadow: gray 0px 0px 3px;
+    padding-left: 50px;
+    padding-top: 10px;
+    animation: transitionIn 0.75s;
+}
+
+#title .col-md-8 .card-title {
+    color: #3468C0;
+}
+
+
+.card .col-md-8 .card-text {
+    font-size: 1rem;
+
+}
+
+.nav-item a {
+    color: #39A7FF;
+    border-style: solid;
+}
+
+.nav-item a:hover {
+    color: #87C4FF;
+    transition: ease-in 0.1s;
+}
+
+.nav-item a:active {
+    color: #E0F4FF;
+}
+
+.nav-item a:focus {
+    color: #87C4FF;
+}
+
+#slideshow {
+    margin: 10px auto;
+    max-width: 72rem;
+    animation: transitionIn 0.75s;
+}
+
+#slideshow img {
+    border-radius: 1.5rem;
+}
+
+.carousel-caption {
+    background: rgba(0, 1, 72, 0.684);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.carousel-caption p {
+    color: rgb(255, 255, 255);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23AEDEFC' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23AEDEFC' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+#tulisan {
+    max-width: 1024px;
+    margin-top: 30px;
+}
+
+hr {
+    max-width: 60rem;
+}
+
+#blog img {
+    object-fit: cover;
+}
+
+#tulisan .bi, .bi-info-circle {
+    font-size: 30px;
+}
+
+#tulisan .blog-card {
+    float: left;
+}
+
+#tulisan .blog-card .card-title {
+    color: #3468C0;
+}
+
+#tulisan #burini {
+    max-width: 370px;
+    padding: 1rem;
+    transition: ease-in 0.1s;
+}
+
+#tulisan #burini img {
+    border-radius: 1rem;
+}
+
+#tulisan #burini a {
+    text-decoration: none;
+    color: black;
+}
+
+#tulisan #burini:hover {
+    max-width: 382px;
+    padding: 1.2rem;
+}
+
+#foto {
+    padding: 1rem;
+    max-width: 1024px;
+    margin-top: 30px;
+    float: left;
+}
+
+#foto .card {
+    max-width: 370px;
+    padding: 1rem;
+}
+
+#foto .card-text {
+    font-size: 1rem;
+}
+
+#footer .card {
+    float: inline-start;
+    box-shadow: rgb(0, 0, 0) 3px 5px 2px;
+}
+
+#footer2 .card {
+    padding: 4rem;
+}
+
+#footer .card, #footer2 .card {
+    margin: 1rem;
+    border-style: none;
+}
+
+#footer .card-text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+#footer .list-group{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.bottom-footer {
+    padding: 1rem;
+    color: #E0F4FF;
+    background-color: #032258;
+}
+
+#footer2 iframe {
+    margin: 2rem;
+}
